@@ -28,7 +28,7 @@ console.log(name, score);
 null;
 let value = "hello";
 value = null;
-                console.log(value);
+qconsole.log(value);
 
 /* ------------------------------ non primitive ----------------------------- */
 // 1. array
