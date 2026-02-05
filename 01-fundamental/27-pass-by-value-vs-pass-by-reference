@@ -1,0 +1,33 @@
+{
+  // pass by value => primitive data type
+  // pass by reference => non primitive data type
+
+  /* ------------------------------ pass by value ----------------------------- */
+  let name = "Andhika";
+  let newname = name;
+
+  console.log(name);
+  console.log(newname);
+
+  newname = "Budi";
+  console.log(name);
+  console.log(newname);
+
+  name = "Adudu"; // apabila name diubah, maka newname tidak ikut keubah juga
+  console.log(name);
+  console.log(newname);
+  /* ---------------------------- pass by reference --------------------------- */
+  const classAStudents = ["Joko", "Juna", "Joni"];
+  const classBStudents = classAStudents;
+
+  console.log(classAStudents);
+  console.log(classBStudents);
+
+  classAStudents[0] = "Jana";
+  console.log(classAStudents);
+  console.log(classBStudents);
+
+  classBStudents[0] = "Janet"; //index[0] pada class A dan class B ikut terganti
+  console.log(classAStudents);
+  console.log(classBStudents);
+}
