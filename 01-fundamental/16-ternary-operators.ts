@@ -10,7 +10,7 @@ if (10 === 10) {
 10 === 10 ? console.log("sama") : console.log("beda");
 
 //contoh if else lebih panjang
-const fruits = "grape";
+const fruits = "banana";
 
 if (fruits === "apple") {
   console.log("red");
